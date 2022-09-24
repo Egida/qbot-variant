@@ -1,3 +1,5 @@
+tested and working on centos 6, 6.9 and 7.7
+
 yum update -y; yum install wget python gcc nano screen httpd php -y; service httpd start; ulimit -n 999999
 
 nano /usr/include/bits/typesizes.h
