@@ -1,7 +1,6 @@
 ﻿#include "headers/includes.h"
 #include "headers/misc.h"
 
-/*  C2 SETTINGS */
 #define PORT 65525
 #define MAXFDS 1000000
 
