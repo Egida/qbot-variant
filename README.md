@@ -38,7 +38,11 @@ screen ./cnc 420 850
 
 hold down CTRL, then hold down A and then press D
 
-CNC port = 65525, protocol = RAW
+CNC port = 65525
+
+telnet 133.70.150.140 65525
+
+with putty you have to use 'RAW'
 
 cmd to add a user:
 
